@@ -4,7 +4,7 @@
   "displayName": "Error Mood Extension",
   "description": "Shows mood images based on errors in the active file, auto-updating live.",
   "icon": "icon.png",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.70.0"
   },

@@ -42,8 +42,11 @@ function activate(context) {
     const image = getImageForErrorCount(errorCount);
     panel.webview.html = getHtmlForWebview(panel.webview, context.extensionUri, image);
   }
+    const editor = vscode.window.activeTextEditor;
+  if (editor) {
+    updateWebview(editor);
+  }
 
-  updateWebview(vscode.window.activeTextEditor);
 
   vscode.window.onDidChangeActiveTextEditor(editor => updateWebview(editor), null, context.subscriptions);
 
