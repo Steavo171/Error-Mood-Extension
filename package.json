@@ -3,7 +3,8 @@
   "publisher": "steavo171",
   "displayName": "Error Mood Extension",
   "description": "Shows mood images based on errors in the active file, auto-updating live.",
-  "version": "0.0.1",
+  "icon": "icon.png",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.70.0"
   },
